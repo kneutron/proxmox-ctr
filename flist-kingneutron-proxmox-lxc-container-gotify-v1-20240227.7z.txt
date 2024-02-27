@@ -1,0 +1,43 @@
+
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=utf8,Utf16=on,HugeFiles=on,64 bits,4 CPUs x64)
+
+Scanning the drive for archives:
+1 file, 25165824 bytes (24 MiB)
+
+Listing archive: kingneutron-proxmox-lxc-container-gotify-v1-20240227.7z.001
+
+--
+Path = kingneutron-proxmox-lxc-container-gotify-v1-20240227.7z.001
+Type = Split
+Physical Size = 25165824
+Volumes = 8
+Total Physical Size = 184266464
+----
+Path = kingneutron-proxmox-lxc-container-gotify-v1-20240227.7z
+Size = 184266464
+--
+Path = kingneutron-proxmox-lxc-container-gotify-v1-20240227.7z
+Type = 7z
+Physical Size = 184266464
+Headers Size = 287
+Method = LZMA2:25
+Solid = +
+Blocks = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-02-27 12:59:30 ....A          140    184266177  7zip-split-ctr.sh
+2024-02-27 12:58:50 ....A          134               7zip-split-ctr.sh~
+2024-02-27 12:47:32 ....A          696               vzdump-lxc-99998-2024_02_27-12_47_22.log
+2024-02-27 12:47:32 ....A    188665812               vzdump-lxc-99998-2024_02_27-12_47_22.tar.zst
+2024-02-27 12:47:32 ....A           71               vzdump-lxc-99998-2024_02_27-12_47_22.tar.zst.notes
+------------------- ----- ------------ ------------  ------------------------
+2024-02-27 12:59:30          188666853    184266177  5 files
+
+------------------- ----- ------------ ------------  ------------------------
+2024-02-27 12:59:30          188666853    184266177  5 files
+
+Archives: 1
+Volumes: 8
+Total archives size: 184266464
