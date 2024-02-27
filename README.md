@@ -9,6 +9,9 @@ REF: https://www.youtube.com/watch?v=vZR2wz6xhRU
 
 See Notes in container, default extraction dir is wherever you restore your container backups, restore from backup
 
+o Create a container named 99998 with whatever basic settings but do not start it
+o In Container / Backup, point to the storage where you downloaded / extracted these files and Restore
+
 2024.0227 Devuan 5 amd64 ctr for gotify v2.4.0 notifications
 
 NOTE AUTOSTARTS at boot
