@@ -9,14 +9,14 @@ REF: https://www.youtube.com/watch?v=vZR2wz6xhRU
 
 See Notes in container, default extraction dir is wherever you restore your container backups, restore from backup
 
-If you have no other storage, default dir is /var/lib/vz/dump - extract the 7zip files there
+If you have no other storage, default dir is /var/lib/vz/dump - extract the 7zip files there - NOTE on proxmox the package required is " p7zip-full "
 
-o Create a container named 99998 with whatever basic settings, password 12345, but do NOT start it
+o Create a container named 99998 with whatever basic settings, exact template is no factor, password 12345, but do NOT start it
 
-o In Container / Backup, point to the storage where you downloaded / extracted these files ("dump" subdirectory) and Restore; basic container will be completely overwritten / replaced
+o In Container / Backup, point to the storage where you downloaded / extracted these files on the PMVE host ("dump" subdirectory) and Restore; basic container will be completely overwritten / replaced
 
 
-2024.0227 Devuan 5 amd64 ctr for gotify v2.4.0 notifications
+2024.0227 Devuan 5 "Daedalus" amd64 ctr for gotify v2.4.0 notifications
 
 NOTE AUTOSTARTS at boot
 
@@ -30,7 +30,7 @@ gotify is started from etc/rc.local and logs to /var/log/gotify.log
 
 No log rotation is implemented by default! Restart container or run /etc/rc.local to reset log, can schedule in crontab
 
-ext4 is already ' tunefs -m 1 ' optimized
+ext4 root is already ' tune2fs -m 1 ' optimized
 
 screen, tmux, mc, ps, killall, top, iperf3 are installed for convenience
 
