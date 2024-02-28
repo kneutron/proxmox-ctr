@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# run in directory where the container files to be packaged are
+mkdir -pv ../splitzip
+
+# debian package required: p7zip-full
+
 time 7z \
   a \
   -mx=6 \
